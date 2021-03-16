@@ -1,0 +1,299 @@
+header {
+  height: 120px;
+}
+
+header .header_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header_title h1 {
+  font-family: 'Haettenschweiler';
+  margin-left: 2%;
+  font-size: 2.4rem;
+}
+
+header .header_title .header_title-icon {
+  width: 30%;
+}
+
+header .header_title .header_title-icon i {
+  font-family: 'Font Awesome 5 Brands';
+  width: 30%;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 40px;
+}
+
+header .header_nav {
+  width: 45%;
+  margin-left: 50%;
+  margin-top: -20px;
+}
+
+header .header_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header_nav ul li {
+  list-style: none;
+  font-size: 0.9rem;
+  padding-right: 8px;
+}
+
+main .main_main-contents-img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .main_main-contents-img img {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+main .main_contents-wrapper3 .main_contemts-img-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main .main_contents-wrapper3 .main_contemts-img-wrapper img {
+  width: 19%;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .programming-works {
+  width: 33%;
+  text-align: center;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .programming-works h3 {
+  background-color: lightgreen;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .programming-works img {
+  width: 50%;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .running-club-works {
+  width: 33%;
+  text-align: center;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .running-club-works h3 {
+  background-color: lightskyblue;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .running-club-works img {
+  width: 50%;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .youtube-works {
+  width: 33%;
+  text-align: center;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .youtube-works h3 {
+  background-color: palevioletred;
+}
+
+main .main_contents-wrapper2 .main_contemts-works-wrapper .youtube-works img {
+  width: 50%;
+}
+
+footer {
+  height: 120px;
+  margin-top: 80px;
+}
+
+footer .footer_title {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #000;
+}
+
+footer .footer_title p {
+  font-size: 20px;
+}
+
+footer .footer_title .header_title-icon a {
+  text-decoration: none;
+}
+
+footer .footer_title .header_title-icon i {
+  font-family: 'Font Awesome 5 Brands';
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+body {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_contents-title {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main_contents-title h2 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: 'Book Antiqua';
+  font-size: 35px;
+}
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 4.375rem;
+  font-family: 'Sofia', cursive;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact .contact-value {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.contact .contact-value input {
+  width: 100%;
+}
+
+@media (max-width: 680px) {
+  .main_contents-wrapper1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main_contents-wrapper1 .main_contents-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contents-text-img {
+    width: 50%;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contents-text-img img {
+    width: 150px;
+    border-radius: 300px;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list {
+    width: 70%;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list h3 {
+    padding-left: 10%;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list ul {
+    margin-left: -50px;
+    text-align: left;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list ul li {
+    list-style: none;
+    padding-left: 10%;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 680px) {
+  .main_contents-wrapper1 .main_contents-text .main_contents-text-img img {
+    display: none;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list h3 {
+    background-color: lightskyblue;
+    font-size: 30px;
+  }
+  .main_contents-wrapper1 .main_contents-text .main_contemts-text-list ul li {
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-wrapper .contact-personal-wrapper {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-wrapper {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-wrapper .contact-personal-wrapper {
+    margin: 0 auto;
+  }
+  .contact-wrapper .contact-comment {
+    margin-right: 10%;
+  }
+  .contact-wrapper .contact-comment textarea {
+    width: 230px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
